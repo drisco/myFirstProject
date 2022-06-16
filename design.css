@@ -1,0 +1,114 @@
+body{
+	margin: 0;
+}
+#hello{
+	
+	background-image: url('../pictures/hello.jpg'); 
+	height: 400px;
+	background-size: cover;
+} 
+#logo{
+	height: 50px; 
+	margin:15px 50px;
+}
+*{
+	box-sizing:border-box;
+ }
+ .contener{
+
+ }
+ h1{
+ 	color:white;
+ 	text-transform: uppercase;
+ 	text-align: center;
+ 	margin-bottom: 12px;
+ 	font-family:arial;
+ 	font-size: 2em;
+ }
+ h2{
+ 	color:white;
+ 	text-align: center;
+ 	font-size: 1.2em;
+ 	font-family: arial;
+ }
+table{
+ 	margin: 10px 420px;
+ 	padding-top: 10px;
+ }
+
+ input{
+ 	width:400px;
+ 	height: 50px;
+ 	padding: 10px;
+ 	border: none;
+ 	box-shadow: 10px;
+ }
+button{
+	width:150px;
+ 	height: 50px;
+ 	background: #F5762F;
+ 	border: none;
+ 	font-size: 1.2em;
+ 	text-transform: uppercase;
+ 	cursor: pointer;
+ 	color: white;
+ 	font-weight: bold;
+}
+
+button:hover{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	transition:0.6s;
+}
+.container{
+	background: #E7F2F2;
+	padding-top: 10px;
+	height: 200px;
+}
+.marques{
+	margin: 10px;
+	text-align: center;
+	color: orange;
+}
+h4{
+	font-family: blackadder itc;
+	text-align: center;
+	color: #F5762F;
+	font-size: 1.5em;
+}
+#marc{
+	width: 150px;
+	padding: 0px 30px;
+}
+.footer{
+	background: #6E7370;
+	height: 112px;
+	padding-top: 10px;
+	text-align: center;
+}
+.mail{
+	color: white;
+	font-size: 1em;
+	border: 2px white double;
+	display: inline-block;
+	padding: 5px;
+	border-radius: 10px 10px;
+}
+p a{
+	text-decoration: none;
+	color: blue;
+}
+footer{
+	padding-top: 15px;
+	font-size: 1em;
+}
+.center{
+	text-align: center;
+
+}
+.result{
+	
+}
+
+@media all and (max-width: 1000px){
+	body{background: gray;}
+}
